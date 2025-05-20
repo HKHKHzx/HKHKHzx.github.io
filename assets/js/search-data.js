@@ -358,9 +358,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/diagrams/";
           
         },
-      },{id: "post-a-distill-style-blog-post",
+      },{id: "post-blog-postings",
         
-          title: "a distill-style blog post",
+          title: "Blog-Postings",
         
         description: "an example of a distill-style blog post and main elements",
         section: "Posts",
