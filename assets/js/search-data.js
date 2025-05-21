@@ -72,18 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2018-12-22-distill/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -367,6 +356,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/diagrams/";
+          
+        },
+      },{id: "post-investigation-about-optimal-llm-scale-for-1-bit-training-ptq-vs-qat",
+        
+          title: "Investigation about Optimal LLM Scale for 1-Bit Training: PTQ vs QAT",
+        
+        description: "As the bit width decreases, the model size required to maintain the same level of performance increases; conversely, if the model becomes excessively large, the benefits of memory and compute reduction are significantly diminished. In this work, we quantitatively evaluate the “minimum model scale needed to achieve performance comparable to an FP16 baseline” for each of the leading 1-bit and sub-1-bit quantization methods published since 2023.&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
