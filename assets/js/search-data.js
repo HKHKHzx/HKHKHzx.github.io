@@ -72,18 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2018-12-22-distill/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -367,6 +356,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/diagrams/";
+          
+        },
+      },{id: "post-investigation-about-optimal-llm-scale-for-1-bit-training-ptq-vs-qat",
+        
+          title: "Investigation about Optimal LLM Scale for 1-Bit Training: PTQ vs QAT",
+        
+        description: "Large language models (LLMs) have grown in size to achieve higher performance, but this increase in model scale demands excessive time, resources, and energy during training. To address these challenges, quantization techniques have been extensively explored, and in particular, 1-bit quantization has emerged as a promising solution that can dramatically reduce memory usage and inference power consumption while maintaining performance comparable to FP16.As the bit width decreases, the model size required to preserve performance must increase, yet overly large models diminish the benefits of memory and compute reduction. Therefore, it is crucial to identify the minimal model size needed to achieve performance similar to an FP16 baseline. In this work, we meticulously categorize and evaluate leading 1-bit and sub-1-bit quantization methods published since 2023 into PTQ (Post-Training Quantization) and QAT (Quantization-Aware Training). Our analysis reveals that, to reach 90% of the FP16 baseline zero-shot accuracy, PTQ requires approximately 31.3B parameters, whereas QAT requires about 7.5B. From the perplexity perspective, PTQ needs about 47.8B, and QAT about 5B parameters to achieve similar performance. These insights provide practical guidelines for balancing resource constraints and target performance when designing and deploying 1-bit LLMs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
