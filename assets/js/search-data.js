@@ -358,11 +358,11 @@ ninja.data = [{
             window.location.href = "/blog/2021/diagrams/";
           
         },
-      },{id: "post-investigation-about-optimal-llm-scale-for-1-bit-training",
+      },{id: "post-how-many-parameters-are-needed-for-1-bit-quantization",
         
-          title: "Investigation about Optimal LLM Scale for 1-Bit Training",
+          title: "How many parameters are needed for 1-bit quantization?",
         
-        description: "As the bit width decreases, the model size required to maintain the same level of performance increases; conversely, if the model becomes excessively large, the benefits of memory and compute reduction are significantly diminished. In this work, we quantitatively evaluate the “minimum model scale needed to achieve performance comparable to an FP16 baseline” for each of the leading 1-bit and sub-1-bit quantization methods published since 2023.&quot;",
+        description: "In this post, we statistically analyze the parameter expansion ratio required for the 1-bit quantization model to achieve 90% of the FP16 baseline performance. By comparing and reviewing the scaling factors of the sub-1bit, 1-bit, and 1.58-bit models collected from various literatures, we present the optimal expansion ranges for each PTQ and QAT scheme. This provides specific guidelines for practical reference in the 1-bit quantization transition.",
         section: "Posts",
         handler: () => {
           
