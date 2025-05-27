@@ -362,7 +362,7 @@ ninja.data = [{
         
           title: "How many parameters are needed for 1-bit quantization?",
         
-        description: "In this post, we statistically analyze the parameter expansion ratio required for the 1-bit quantization model to achieve 90% of the FP16 baseline performance. By comparing and reviewing the scaling factors of the sub-1bit, 1-bit, and 1.58-bit models collected from various literatures, we present the optimal expansion ranges for each PTQ and QAT scheme. This provides specific guidelines for practical reference in the 1-bit quantization transition.",
+        description: "In this post, we statistically analyze the parameter expansion ratio required for the 1-bit quantization model to achieve 90% of the FP16 baseline performance. By comparing and reviewing the scaling factors of the sub 1-bit, 1-bit, and 1.58-bit models collected from various literatures, we present the optimal expansion ranges for each PTQ and QAT scheme. This provides specific guidelines for practical reference in the 1-bit quantization transition.",
         section: "Posts",
         handler: () => {
           
